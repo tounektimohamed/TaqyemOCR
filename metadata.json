@@ -1,0 +1,8 @@
+{
+  "name": "Rubric Analyzer / محلل جداول تقييم الأعداد",
+  "description": "تطبيق ذكي لتحليل جداول إسناد وتوزيع الأعداد المدرسية، استخراج المعايير والمستويات تلقائياً وحساب المجموع بدقة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

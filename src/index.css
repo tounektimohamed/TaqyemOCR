@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Anton&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base style additions for smooth animations and transitions */
+body {
+  background-color: #0a0a0e;
+  color: #e8e8f0;
+  font-family: var(--font-sans);
+}
+
+/* Artistic Flair theme styles */
+.glass {
+  background: rgba(25, 25, 35, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #6c63ff, #9c5fff);
+  color: white;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.45);
+}
+
+.btn-gradient:active {
+  transform: translateY(1px);
+}
+
+.level-select-btn {
+  border: 1px solid #2a2a3a;
+  background: #151520;
+  color: #888;
+  transition: all 0.2s ease;
+}
+
+.level-select-btn:hover {
+  border-color: #6c63ff;
+  color: #e8e8f0;
+}
+
+.level-select-btn.active {
+  background: #6c63ff;
+  color: white;
+  border-color: #6c63ff;
+  box-shadow: 0 0 15px rgba(108, 99, 255, 0.4);
+}
+
+.brutalist-number {
+  font-family: 'Anton', "Cairo", sans-serif;
+  font-size: 80px;
+  line-height: 0.8;
+  letter-spacing: -2px;
+}
+
+/* Custom scrollbars for a premium polished feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a3a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c63ff;
+}
+
