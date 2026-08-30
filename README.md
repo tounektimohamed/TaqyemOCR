@@ -1,20 +1,49 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+<h1>Taqyem OCR 🔍</h1>
+
+**Taqyem OCR** is an AI-powered OCR application running on Google AI Studio with Gemini for fast document scanning and text extraction.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=google&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
+## 📖 Overview
 
-This contains everything you need to run your app locally.
+**Taqyem OCR** is an AI-powered OCR application running on Google AI Studio with Gemini for fast document scanning and text extraction.
 
-View your app in AI Studio: https://ai.studio/apps/d37817d1-35f7-4da5-84f5-0849997b4488
+## ✨ Features
 
-## Run Locally
+- Document scanning & OCR
+- Text extraction with Gemini
+- Deployable from AI Studio
+- Clean UI
 
-**Prerequisites:**  Node.js
 
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+TypeScript, Gemini AI, Node.js.
+
+## 🚀 Getting Started
+
+```bash
+git clone <repo-url>
+cd <repo>
+npm install
+npm run dev
+```
+
+> Open the dev server URL printed in your terminal.
+
+## 📬 Contact
+
+- **Email:** tounekti17@gmail.com
+- **LinkedIn:** [tounekti-mohamed](https://www.linkedin.com/in/tounekti-mohamed-b38935213/)
+- **GitHub:** [tounektimohamed](https://github.com/tounektimohamed)
+
+---
+
+<div align="center">Built with ❤️ by **Mohamed Tounekti**</div>
